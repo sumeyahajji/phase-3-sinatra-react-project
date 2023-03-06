@@ -36,6 +36,8 @@ gem "require_all", "~> 3.0"
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.18'
 
+ruby '2.7.4'
+
 # These gems will only be used when we are running the application locally
 
 
