@@ -59,13 +59,7 @@ This application is a simple web API that allows users to:
 ### MODELS
 Database schema definitions.
 #### 
-| COLUMN      | DATA TYPE                                       | DESCRIPTION                         |
-|-------------|-------------------------------------------------|-------------------------------------|
-| id          | Integer                                         | Unique identifier.                  |
-| title       | String                                          | The first part of movie (intro)             |
-| message | String                                          | second part of meme (punchline)  |
-| updated_at    | Date      | The date the user was updated.        |
-| createdAt     | Date      | The date the user was created.        |
+
 #### USER
 | COLUMN        | DATA TYPE | DESCRIPTION                           |
 |---------------|-----------|---------------------------------------|
@@ -96,15 +90,20 @@ Database schema definitions.
 3. `/users/:user_id/movies` - Add a new TODO item.
    ```{json}
   {
+
   "id": 1,
+
   "title": "Black Panther",
+
   "genre_id": null,
   "images": null,
   "": null,
   "created_at": "2023-03-06T22:01:18.970Z",
   "updated_at": "2023-03-06T22:01:18.970Z",
   "image": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+
   "description": "The people of Wakanda fight to protect their home from intervening world powers as they mourn the death of King T'Challa.",
+
   "rating": 7,
   "genre": "Action"
   }
@@ -116,13 +115,12 @@ Database schema definitions.
       "movies": [
      {
       "id": 26,
-      "title": "How does the moon cut his hair?",
-      "message": "Eclipse it",
+      "title": "Wednesday?",
       "user_id": 6,
       "created_at": "2023-03-05T07:00:16.885Z",
       "updated_at": "2023-03-05T07:00:16.885Z",
       "user": {
-        "username": "eva"
+        "username": "sumeya"
       }
     ]
    }
